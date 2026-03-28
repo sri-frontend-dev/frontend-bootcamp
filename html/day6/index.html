@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project (Complete HTML Page)</title>
+</head>
+<body>
+    <header>
+        <h1>Personal Profile Website</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Conact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a beginner frontend developer learning HTML, CSS, and JavaScript.</p>
+            <img src="passport photo.png" alt="profile">
+        </section>
+
+        <section id="skills">
+            <h2>My SKills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+             <h2>Contact Form</h2>
+            
+        <form action="post">
+            <fieldset>  
+             <legend>Contact form</legend>
+              
+              <label for="name">Name</label><br>
+              <input type="text" placeholder="Enter your full name" id="name" name="name" required><br><br>
+
+              <label for="email">Email</label><br>
+              <input type="email" placeholder="Enter your email" id="email" name="email" required><br><br>
+
+              <label for="subject">Subject</label><br>
+              <input type="text" placeholder="what is this about?" id="subject" name="subject" required><br><br>
+              
+              <label for="message">Message:</label><br>
+              <textarea name="message" id="message" rows="5" placeholder="write your message here..."></textarea><br><br>
+
+              <button type="submit">Submit</button>
+            
+            </fieldset>
+            
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Sri. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
