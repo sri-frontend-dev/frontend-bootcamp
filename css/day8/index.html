@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project: Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#articles">Articles</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="articles">
+            <article>
+                <h2>My First Web Development Journey</h2>
+
+                <p>  I am a beginner frontend developer currently learning HTML, CSS, and JavaScript.
+                This blog documents my progress and learning experience.</p>
+
+                <img src="passport photo.png" alt="profile photo">
+                
+                <p> This is my first blog post where I share my journey into web development.
+                I am building projects step by step to improve my skills.</p>
+
+            </article>
+          </section>
+            
+            <aside>
+                <div class="aside-box">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li>Getting Started with HTML</li>
+                    <li>Understanding Semantic Tags</li>
+                </ul>
+
+                <h3>Categories</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                </div>
+            </aside>
+            
+        <section id="contact">
+             <h2>Contact Form</h2>
+            
+        <form class="contact-form" action="post">
+            <div class="contac1">
+            <fieldset>  
+             <legend>Contact form</legend>
+              
+              <label for="name">Name</label><br>
+              <input type="text" placeholder="Enter your full name" id="name" name="name" required><br><br>
+
+              <label for="email">Email</label><br>
+              <input type="email" placeholder="Enter your email" id="email" name="email" required><br><br>
+
+              <label for="subject">Subject</label><br>
+              <input type="text" placeholder="what is this about?" id="subject" name="subject" required><br><br>
+              
+              <label for="message">Message:</label><br>
+              <textarea name="message" id="message" rows="5" placeholder="write your message here..."></textarea><br><br>
+
+              <button type="submit">Submit</button>
+            
+            </fieldset>
+            </div>
+            </form>
+        </section>    
+    </main>
+
+
+    <footer>
+        <p>© 2026 Sri. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
